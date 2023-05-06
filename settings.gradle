@@ -1,0 +1,6 @@
+rootProject.name = 'Task4.2_GradleExample'
+include 'gradle:db'
+findProject(':gradle:db')?.name = 'db'
+include 'api'
+include 'db'
+include 'service'
